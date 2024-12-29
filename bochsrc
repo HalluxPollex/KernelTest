@@ -1,0 +1,5 @@
+romimage: file=/home/max/Documents/Assembly/x86/v37OS/usr/share/bochs/BIOS-bochs-latest
+vgaromimage: file=/home/max/Documents/Assembly/x86/v37OS/usr/share/bochs/VGABIOS-lgpl-latest
+ata0-slave: type=cdrom, path=oliveos2.iso, status=inserted
+boot:cdrom
+display_library: x, options = "gui_debug"
